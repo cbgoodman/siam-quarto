@@ -1,0 +1,51 @@
+---
+title: "Deil S. Wright Symposium"
+date: "2015-03-06"
+description: "Symposium program information. This year's symposium theme is Intergovernmental Management: Tensions and Trends."
+author: "" 
+toc: true
+categories:
+    - symposium
+---
+
+## Intergovernmental Management: Tensions and Trends
+
+### Teaching and Research Panel
+1:00-2:20 
+
+#### Is the Teaching of Federalism and Intergovernmental Relations Dead or Alive in American Public Administration Programs?
+Richard L. Cole, University of Texas at Arlington, and John Kincaid, Lafayette College
+
+#### Taking the High Road: Local Government Managers’ Perceptions on Implementing Local Option Recreational Marijuana in Colorado
+Bruce J. Perlman, Sara Shoemate, and Nicholas Edwardson, University of New Mexico, and Michael J. Scicchitano, University of Florida
+
+#### Collaboration Risk in Joint Ventures among Governments: Understanding the Risk Perceptions of Economic Development Officials
+Jered B. Carr, University of Illinois at Chicago, Christopher Hawkins, University of Central Florida, and Drew Westberg, University of Missouri-Kansas City
+
+#### Jobs, Jobs, Jobs: Energy Efficiency and Growth through State and Local Implementation.
+Benjamin H. Deitchman, Rochester Institute of Technology
+
+#### The Status of Home Rule in Illinois
+Heidi Koenig, Northern Illinois University
+
+### Break
+2:20-2:30
+### Roundtable I: NAPA Perspectives on New Paradigms for Developing a National Infrastructure Agenda
+2:30-3:30 
+
+Mark Pisano, University of Southern California</br>
+Peter J. Basso, American Association of State Highway and Transportation Officials
+
+### Roundtable II: New Approaches to the Study of Contemporary Intergovernmental Relationships
+3:30-4:45 
+
+Robert A. Agranoff, Indiana University</br>
+Beryl A. Radin, Georgetown University</br>
+Ann O’M. Bowman, Texas A & M University</br>
+Michael Pagano, University of Illinois at Chicago
+           
+### Concluding Comments
+4:45 
+
+David C. Wright </br>
+Richard C. Feiock, Florida State University

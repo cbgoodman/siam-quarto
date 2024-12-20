@@ -1,0 +1,26 @@
+# Date format
+date-format: "ddd MMM D, YYYY"
+
+# Default for table of contents
+page-layout: full
+sidebar: false
+toc: false
+page-navigation: true
+toc-title: Contents
+toc-location: right
+toc-depth: 4
+
+# Only include Bibtex citation
+appendix-cite-as: bibtex
+
+include-back-link: true
+
+format:
+  html: 
+    fig-cap-location: margin
+    hide-description: true
+
+# Default author
+author:
+  - name: SIAM-ASPA
+    email: siam-aspa@gmail.com

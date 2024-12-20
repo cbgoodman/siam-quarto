@@ -1,0 +1,109 @@
+---
+title: "Donald C. Stone Practitioner and Scholar Awards"
+page-layout: full
+sidebar: false
+toc: false
+---
+
+**Donald C. Stone **(1903‐1995) was a major and beloved figure in twentieth‐century public administration. He was the founder of the American Public Works Association (APWA), served as the first Director of the Public Administration Service, and was a principal architect of the Executive Office of the President (EOP) in 1939 based on the 1937 recommendations of the Brownlow Commission. He was the first Director of the Division of Administrative Management of the Bureau of the Budget within the EOP, worked as Director of Administration of the Marshall Plan in 1948, helped found the National Academy of Public Administration in 1967, and served as Dean of the School of Public and International Affairs at the University of Pittsburgh.
+
+The **Section on Intergovernmental Administration and Management (SIAM)** established the **Stone awards** in 1980. The first awards were made in 1981. The principal criteria for the **Practitioner** and **Scholar** awards are:
+
+* Significant contributions to the practice and/or study of intergovernmental relations over a substantial period of time
+* Contributions that have made an impact on the practice and/or study of intergovernmental management as a whole rather than only on a specific organization, institution, or function.
+
+Additionally, SIAM also makes an annual award for the **Best Student Paper**, which includes payment for the student’s conference registration.
+
+In 2017, SIAM created the **Legacy Award**. The SIAM Legacy Award is an opportunity for the community of scholars and practitioners to acknowledge an individual whose career has centered on advancing the study and practice of federalism in multiple roles.  Those roles have cumulatively left a significant impact on our understanding and appreciation of:
+
+* The complex relationships between governments at the national, state and local level;
+* The efforts of those governments to work with each other and the communities of which they are a part; and
+* The spirit of those governments and their communities to be first and foremost democratic institutions.
+
+Criteria for selection includes the following:
+
+1. The successful candidate will have significantly contributed to the academic literature on federalism and/or will have engaged in a career as a practitioner in a variety of roles that have demonstrated skill and leadership in the art of federalism.
+2. The successful candidate will have participated in a wide variety of assignments as part of the Section on Intergovernmental Administration and Management (SIAM),
+3. The successful candidate will have demonstrated an active role, either as an academic or practitioner, in mentoring young professionals at the start of their careers.
+
+## Past Award Recipients
+```{r}
+#| echo: false
+
+tibble::tribble(
+~year,  ~practitioner,  ~scholar, ~legacy,  ~student,
+2023, "Kathleen Hale", "Mark Fowler", "Carl Stenberg", "Shuwen Zhang",
+2022,	"Maria Dadgar",	"David Ammons", "David Miller", "Renzo de la Riva Aguero",
+2021,	"Clifford M. Lippard",	"Michael McGuire", "" , "David Schwegman",
+2020,	"Douglas R. Hooker", "Carl Stenberg", "" , "Brian An",
+2019,	"Rep. Rob Bishop", "Suzanne Leland", "" , "Samuel Gallaher",
+2018,	"Peter Harkness", "Karen Mossberger", "" , "Samuel Gallaher",
+2017,	"Norton Bonaparte", "Jered Carr", "Ed Benton", "Ruowen Shen",
+2016,	"Rajesh Mohan", "Tim Conlan", "", "Andrew Crosby",
+2015,	"Peter Austin",	"Michael Pagano", "", "",
+2014,	"", "", "", "",		
+2013,	"Bill Stafford", "Kurt Thurmaier", "", "",
+2012,	"Sam Mamet", "Frank J. Thompson", "", "",
+2011,	"", "", "", "",			
+2010,	"William R. Barnes", "Richard Feiock", "", "",
+2009,	"Raymond C. Sheppach", "Charles Wise", "", "",
+2008,	"Bruce D. McDowell", "Carol S. Weissert", "", "",
+2007,	"Alan Ehrenhalt", "James Svara", "", "",
+2006,	"Paul Posner", "Mryna Mandell", "", "",
+2005,	"David Warm", "Donald F. Kettl", "", "",
+2004,	"Jeffrey Tryens", "Charldean Newell", "", "",
+2003,	"Anthony Griffin", "Richard Campbell", "", "",
+2002,	"Richard Sheirer", "Beryl Radin", "", "",
+2001,	"William Dodge", "Susan A. MacManus", "", "",
+2000,	"William H. Hansell, Jr.",	"Robert Agranoff", "", "",	
+1999,	"Scott Fosler", "Laurence O’Toole", "", "",
+1998,	"Patricia S. Florestano", "Ann O’M. Bowman", "", "",
+NA , "",                    "David Morgan", "", "",
+1997,	"William G. Coleman", "Joseph F. Zimmerman", "", "",
+1996,	"Gerald Miller", "Steven D. Gold", "", "",
+1995,	"Gov. Parris Glendening", "Dale Krane", "", "",	
+1994,	"Carl W. Stenberg, III", "Beverly A. Cigler", "", "",
+1993,	"William Edgar", "David Beam", "", "",
+1992,	"Zachary Taylor", "Thomas R. Dye", "", "",
+1991,	"George Van Dusen", "John Kincaid", "", "",
+1990,	"Frank H. Shafroth", "Paul E. Peterson", "", "",
+1989,	"John Herbers", "Samuel H. Beer", "", "",
+1988,	"Louis Gambaccini", "George E. Peterson", "", "",		
+1987,	"Gov. Bruce Babbitt", "Neal Peirce", "", "",
+1986,	"Gov. Richard Snelling", "Richard Nathan", "", "",
+1985,	"Sen. David F. Durenberger", "Daniel J. Elazar", "", "",	
+1984,	"Wayne F. Anderson", "Martha Derthick", "", "",
+1983,	"Edward T. Kelly", "Mavis Mann Reeves", "", "",
+1982,	"Donna Shalala", "Deil S. Wright", "", "",
+NA , "",               "Alan R. Siegle", "", "",
+1981,	"Ray Remy", "David B. Walker", "", "",
+) |> 
+  gt::gt() |>
+  gt::cols_align(
+    align = "left",
+    columns = everything()
+  ) |>
+  gt::cols_label(
+    year = gt::md("**Year**"),
+    practitioner = gt::md("**Practitioner**"),
+    scholar = gt::md("**Scholar**"),
+    legacy = gt::md("**Legacy**"),
+    student = gt::md("**Best Student Paper**")
+  ) |>
+  gt::tab_spanner(
+    label = gt::md("**Donald C. Stone Award**"),
+    columns = c(practitioner, scholar)
+  ) |>
+  gt::tab_spanner(
+    label = gt::md("**SIAM Awards**"),
+    columns = c(legacy, student)
+  ) |>
+  gt::sub_missing(columns=year, missing_text = "") |>
+  gt::tab_footnote(
+    footnote = "No Award Information.",
+    locations = gt::cells_body(columns = year, rows = c(10, 13))
+  ) |> 
+  gt::opt_footnote_marks(marks = "standard") |>
+  gt::opt_horizontal_padding(scale = 1.5)
+
+```

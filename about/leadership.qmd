@@ -1,0 +1,41 @@
+---
+title: "Executive Committee"
+page-layout: full
+sidebar: false
+toc: true
+---
+
+Chair
+: Christopher Hawkins, University of Central Florida, 2022-2024
+
+Chair-Elect
+: David Swindell, Arizona State University, 2022-2024
+
+Past Chair
+: Christine Palus, Villanova University, 2020-2022
+
+Council Members
+: Jayce Farmer, University of Nevada, Las Vegas, 2020-2023
+: Meghan Rubado, Cleveland State University, 2020-2023
+: David Swindell, Arizona State University, 2020-2023
+: Qian Hu, University of Central Florida, 2019-2025
+: Steve Percy, Portland State University, 2019-2022
+: Anne Williamson, University of Missouri – Kansas City, 2021-2024
+: Kimberly Nelson, University of North Carolina, 2021-2024
+: Benoy Jacob, University of Wisconsin – Madison, 2021-2024
+: Sung-Wook Kwon, Texas Tech, 2022-2025
+: Chris Goodman, Northern Illinois University, 2022-2025
+
+## Appointed by the Chair
+Treasurer
+: Susan Paddock, University of Wisconsin – Madison, 2021-2023
+
+
+## Other Section Leaders
+
+Newsletter Editor/Social Media and Blog Coordinator
+: Elizabeth Motyka, University of Illinois at Chicago
+
+Editors, State and Local Government Review
+: Kimberly Nelson, University of North Carolina – Chapel Hill
+: Eric Zeemering, University of Georgia

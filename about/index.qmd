@@ -1,0 +1,14 @@
+---
+title: "About SIAM"
+page-layout: full
+sidebar: true
+toc: false
+---
+
+SIAM is the Section on Intergovernment Administration and Management, a section of the [American Society for Public Administration (ASPA)](https://www.aspanet.org). The Section serves as a forum for the study, understanding, and improvement of federal systems and other forms of intergovernmental relations wherein national, state, and local governments address policy and management issues.
+
+We encourage you to explore our website to learn more about our organization and the work we do. Here are a few places to start:
+
+* Take a moment to learn about our [executive committee](/about/leadership.qmd).
+* Learn about more than 40 years of [Donald C. Stone Award winners](/awards.qmd).
+* Read an article in our official journal, [*State & Local Government Review*](/slgr.qmd).

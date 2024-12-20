@@ -1,0 +1,89 @@
+---
+title: "Deil S. Wright Symposium"
+date: "2022-03-18"
+description: "Symposium program information. This year's symposium theme is Intergovernmental Issues of the Biden Presidency."
+author: "" 
+toc: true
+categories:
+    - symposium
+---
+
+## Intergovernmental Issues of the Biden Presidency
+
+### Introductions, Mingling, and Welcome (9:20AM)
+9:00-9:30AM
+
+### Diverse Methods Investigating Regional and Interlocal Governance Mechanisms for Physical and Human Infrastructure
+9:30–11:00AM
+
+The impacts of the federal bipartisan physical infrastructure bill (Infrastructure Investment and Jobs Act, 2021-2022) will be a story of not just intergovernmental implementation through federal-state or state-local relations. It will also require an understanding of how local governments and the constellations of interlocal mechanisms that operate at the substate level function as resources are deployed. Scholars often consider special districts, regional public sector organizations, interlocal agreements, and other collective action mechanisms in isolation. While developing a rigorous understanding of the components requires narrow focus, the larger network is not nearly as siloed.
+
+The Build Back Better bill focusing on human infrastructure–in whatever final resulting form—will rely on many of the same overlapping constellations of local governments and interlocal mechanisms, as well as partnerships with civic sector providers. The governance and implementation of programs through Area Agencies on Aging, multijurisdictional opioid addiction response partnerships, watershed coalitions, and educational partnerships operate within some of these same regional public sector organizations. The special districts and interlocal agreements impacted by investments in human infrastructure may involve many of the same local government and civic sector partners as the physical infrastructure investments. Our panelists will discuss ongoing governance research focused on four areas central to physical and human infrastructure needs in the U.S.: water systems management, broadband deployment, behavioral health care, and sustainability planning. Each panelist applies different research techniques to capture these questions: network analysis, individual case study, interview data analysis, and survey data analysis.
+
+#### Putting fragmentation back together again: Advancing a typology of successful water system governance
+
+Kate Albrecht, University of Illinois-Chicago (presenter)
+Thomas Skuzinski, Northern Illinois University
+Jason Michnick, University of Illinois-Chicago
+Carolina Velandia Hernandez, Northern Illinois University
+
+#### Rural Broadband and Co-Regional Activity in Southwestern North Carolina
+
+Jay Rickabaugh, Appalachian State University (presenter, confirmed)
+Jen Luetkemeyer, Appalachian State University
+
+#### Outcome Insights: Applying an NPG lens to examine a capacity building initiative among the government and its partners
+
+Sapna Varkey, University of Missouri-Saint Louis (presenter)
+Kara Lawrence, North Carolina State University
+Leila Chelbi, North Carolina State University
+Amanda J. Stewart, North Carolina State University
+Richard M. Clerkin, North Carolina State University
+
+#### Infrastructure Regionalism and Sustainability Planning in Illinois Municipalities
+
+Thomas Skuzinski, Northern Illinois University
+
+### Break
+11:00-11:15
+
+
+### Roundtable Discussion: Future Research Questions and Idea Brainstorm
+11:15-12:15
+
+Professor Deil Wright was a true master of mentorship and research collaboration. As such, to honor his legacy to the section and to the field, we will dedicate an hour of the day to an open conversation among attendees about their research in progress. Attendees are invited to share about current research, their future ideas, any stumbling blocks they may be grappling with on their projects, and other topics related to federalism, intergovernmental relations, intergovernmental management, or general professional development in the field.
+
+### Lunch Break
+12:15-1:30PM
+
+
+### COVID-19, Policy, and Outcomes in the Federal System
+1:30–3:00PM
+
+#### Negativity Bias in City Councilors’ Responsibility Attribution for COVID-19 Outcomes
+
+Ulrich Jensen, Akheil Singla, Justin Stritch, and David Swindell, Arizona State University
+
+Public health services in the United States are collaboratively provided by all levels of U.S. governments, creating a complicated and often conflicted policy environment during a pandemic like COVID-19. When facing poor-COVID-19 outcomes (e.g., high case and death rates), elected officials can deflect blame up or down the vertical hierarchy of government instead of accepting responsibility. The result may worsen intergovernmental service delivery and result in an erosion of accountability and trust among citizens. To explore whether such blame shifting occurs, we manipulated the saliency of states’ relative performance on central COVID-19 outcomes as part of a survey experiment among 339 political decision makers serving on city councils across the United States. Drawing on the concept of “negativity bias,” we show that elected officials are highly motivated to shift blame to external factors instead of assuming responsibility when poor performance is made salient. Elected officials in better-performing states, however, do not claim credit for lower COVID-19 case and fatality rates, supporting the notion that political leaders place disproportionate weight on negative information when attributing responsibility for policy outcomes. Our findings have extensive ramifications, as failure to assume responsibility when it is needed the most can further erode citizen trust in public institutions and exacerbate resistance to the very public health measures prescribed by these institutions to combat COVID-19.
+
+#### Policymaking During COVID-19: Preemptive State Interventions and the Factors Influencing Policy Implementation Success
+
+Seungkyu Choi, Michelle Allgood (Presenter), and David Swindell, Arizona State University
+
+COVID-19 not only sparked a public health crisis, but created a series of policy preemption battles. This article examines how COVID-19 interventions played out at the state level given the absence of guidance to create a coordinated national response. Specifically, we examine how four specific interventions (i.e., masking, school closures, restaurant closures, and travel restrictions) traveled through the policy creation and implementation process as outlined by a modified version of Kingdon’s multiple streams approach. We focus on how the level of policy rigidness and enforcement of behavioral interventions helps us understand the success and failures of reducing the number of positive test rates over a 20 week period (March – July, 2020). Our findings suggest that highly restrictive policies are effective in controlling the spread of COVID-19, but the mechanisms and dynamics vary based on the specific intervention. We also find a strong association between the states’ political orientation and a governor’s inclination to use restrictive interventions. Governors from conservative states are less likely to employ preemptive actions such as face mask regulations and travel restrictions and more likely to preempt local governments from exceeding state-specified responses.
+
+#### Defining Urban Sustainability: An Examination of U.S. Cities
+
+Chris Hawkins, University of Central Florida
+
+Sustainability has become an umbrella concept under which urban environmental quality, resource conservation, equity, climate mitigation, economic health and environmental justice all occur. As such, research has sought to gain a deeper understanding of how cities are pursuing these and other objectives. To this end, a relatively large scholarly literature has emerged on city sustainability policies and programmatic efforts. However, how city officials define sustainability is also critical; such conceptualizations reflects the city’s sustainability agenda and guide the city’s operationalization of sustainability objectives.
+
+This study uses a unique collection of qualitative data from over 400 US cities collected at two points in time: 2015 and 2020. Specifically, local government staff with sustainability-related responsibilities provided open-ended descriptions of sustainability as it is practiced in their communities. We develop and apply a coding protocol to the definitions in order to assess patterns and generate groupings of similar cities. We present descriptive statistics illustrating how cities’ conceptualizations of sustainability have shifted over time and present the results of a multivariate analysis that differentiate groups of cities based on community characteristics.
+
+Preliminary results suggest that although some cities define sustainability in relatively comprehensive terms and reflect a future oriented perspective, other cities define sustainability more programmatically. Results also point toward the challenges of pursuing sustainability without generating co-benefits, a lack of political support, and limited resources. These and other findings add new evidence of how sustainability is practiced and the similarities and differences across cities.
+
+### Program Concludes
+3:00PM
+
+### SIAM Business Meeting
+5:00PM

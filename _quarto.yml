@@ -1,0 +1,71 @@
+project:
+  type: website
+
+  # Preview settings
+  preview:
+    port: 4444
+    browser: true
+    watch-inputs: true
+    navigate: true
+
+website:
+  title: "Section on Intergovernmental Administration and Management"
+  image: "siam-logo.jpg"
+  favicon: "files/favicon.ico"
+  page-navigation: true
+  #google-analytics:
+  #  tracking-id:
+
+  announcement: 
+    icon: exclamation-triangle-fill
+    dismissable: false
+    content: "**Alert** - Work in progress. Not ready for production."
+    type: warning
+    position: below-navbar
+
+  navbar:
+    logo: "siam_logo.jpg"
+    logo-alt: "SIAM Logo"
+    logo-href: "/index.qmd"
+    title: false
+    align: bottom
+    collapse-below: lg
+
+    left:
+      - text: "About"
+        menu:
+          - href: "about/index.qmd"
+            text: "About SIAM"
+          - href: "about/leadership.qmd"
+            text: "Leadership"
+          - href: "about/bylaws.qmd"
+            text: "Bylaws"
+      - href: "awards.qmd"
+        text: "Awards"
+      - href: "slgr.qmd"
+        text: "State & Local Government Review"
+
+  page-footer: 
+    border: false
+    left: |
+      <span class="faux-block">Stay up-to-date with SIAM</span>
+      <a href="/join-us.qmd"  class="btn btn-primary btn-lg" target="_blank" rel="noopener noreferrer">&nbsp;&nbsp;&nbsp;subscribe to email&nbsp;&nbsp;&nbsp;</a>
+    center: |
+      <span class="faux-block"> [About SIAM](/about/index.qmd)</span>
+      <span class="faux-block"> [Awards](/awards.qmd)</span>
+      <span class="faux-block"> [SLGR](/slgr.qmd)</span>
+    right: 
+      - icon: twitter 
+        href: https://twitter.com/
+        aria-label: Twitter
+      - icon: linkedin
+        href: https://www.linkedin.com/
+        aria-label: LinkedIn
+        
+
+format:
+  html:
+    theme: [flatly, html/siam.scss]
+    mainfont: "Open Sans"
+    toc: true
+    

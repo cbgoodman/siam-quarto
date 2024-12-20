@@ -1,0 +1,379 @@
+/*-- scss:defaults --*/
+
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&family=Source+Code+Pro:wght@400;500;600&display=swap);
+// * Colors
+
+$foot-grey:                   #404041 !default;
+$blue:                        #0D6986 !default;
+$blue-light:                  #8EC7D2 !default;
+$blue-dark:                   #07485B !default;
+$orange:                      #DBA507 !default;
+
+$white:                       #ffffff !default;
+$grey:                        #f7f7f7 !default;
+$gray-100:                    #f8f9fa !default;
+$gray-200:                    #e9ecef !default;
+$gray-300:                    #dee2e6 !default;
+$gray-400:                    #ced4da !default;
+$gray-500:                    #adb5bd !default;
+$gray-600:                    #868e96 !default;
+$gray-700:                    #495057 !default;
+$gray-800:                    #373a3c !default;
+$gray-900:                    #212529 !default;
+$black:                       #000000 !default;
+
+
+$font-family-sans-serif:      "Open Sans", system-ui, -apple-system, BlinkMacSystemFont, segoe ui, Helvetica, Arial, sans-serif, apple color emoji, segoe ui emoji, segoe ui symbol;
+$font-family-serif:           serif !default;
+$font-family-code:            "Source Code Pro", monospace;
+
+$toc-font-family:             system-ui, -apple-system, BlinkMacSystemFont, segoe ui, Helvetica, Arial, sans-serif, apple color emoji, segoe ui emoji, segoe ui symbol;
+$toc-color:                   $blue;
+$toc-font-size:               0.8em;
+
+$headings-font-family:        system-ui, -apple-system, BlinkMacSystemFont, segoe ui, Helvetica, Arial, sans-serif, apple color emoji, segoe ui emoji, segoe ui symbol;
+$headings-font-weight:        700 !default;
+
+$footer-font-family:          "Source Code Pro", monospace;
+$footer-font-color:           $gray-100;
+
+// Body
+$body-color:                  #333333 !default;
+
+$link-color:                  $blue !default;
+$link-decoration:             none !default;
+$link-hover-color:            $blue !default;
+$link-hover-decoration:       underline !default;
+
+// Nav bar
+$navbar-bg:                   $white;
+$navbar-fg:                   #656E76;
+$navbar-hl:                   $blue;
+
+// Footer 
+$footer-bg:                   $foot-grey;
+
+// Banner blocks
+$title-block-banner:          $white !default;
+
+// Pagination
+$pagination-bg:             $blue-light;
+$pagination-active-bg:      $blue;
+$pagination-hover-bg:       $blue;
+$pagination-disabled-bg:    $blue-dark;
+
+/*-- scss:rules --*/
+
+body {
+	font-family: $font-family-sans-serif;
+	font-weight: 400;
+	background-color: $white;
+}
+
+// Header Stuff
+.navbar a {
+    font-family: $font-family-code;
+    font-weight: 500;
+    font-size: 1rem;
+    padding-left: 4px;
+    padding-right: 4px;
+    border-bottom: none;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    line-height: 160%;
+}
+
+.navbar-title {
+    font-weight: $headings-font-weight;
+}
+
+.navbar-logo {
+    max-height: 61.5px;
+  }
+
+// Buttons
+
+.btn-primary, .btn-lg-primary {
+    padding: 0.75rem 1.5rem;
+    font-size: 16px;
+    text-align: center;
+    color: $foot-grey !important;
+    background-color: $gray-100 !important; 
+    display: inline-block;
+    margin-top: 30px;
+
+    a {
+        font-family: $footer-font-family;
+        font-weight: 600;
+        letter-spacing: 0.03em;
+        line-height: 160%;
+        
+    }
+}
+
+.btn-info {
+    color: $gray-100 !important;
+    background-color: $blue !important; 
+}
+
+// Footer Stuff
+.footer {
+    padding: 60px 0 120px;
+    background-color: $foot-grey;
+}
+
+.nav-footer {
+    align-items: flex-start;  // Align all flex items to the top
+    flex-wrap: wrap;
+    min-height: 3em;
+
+    a {
+        color: $gray-100;
+        font-family: $footer-font-family;
+        font-weight: 600;
+        letter-spacing: 0.03em;
+        line-height: 160%;
+        padding-left: 4px;
+        padding-right: 4px;
+        border-bottom: none;
+        text-transform: uppercase;
+        transition-duration: 0.15s;
+    }
+
+    a:hover {
+        color: $foot-grey;
+        background-color: $blue-light;
+        text-decoration: none;
+    }
+
+    .faux-block {
+        display: block;
+        padding-bottom: 0.4em;
+    }
+
+    .fingerprint {
+        font-family: $font-family-monospace;
+        font-size: 0.8em;
+    }
+
+
+    .nav-footer-left {
+        text-align: left;
+        position: inherit;
+        margin-top: 0;
+        font-size: 20px;
+        padding-left: 1.4em;
+        padding-right: 1.4em;
+        color: $gray-100;
+        font-weight: 400;
+    }
+    // In the default Quarto template, .nav-footer-center has position: absolute 
+    // turned on, which makes the div not be a flex item
+    // This changes that so that it *is* a flex item
+    .nav-footer-center {
+        text-align: left;
+        position: inherit;
+        margin-top: 0;
+        font-size: 20px;
+
+        @media (max-width: map-get($grid-breakpoints, md)) {
+            margin-top: 0.5em;
+            margin-bottom: 1.5em;
+        }
+    }
+
+    .nav-footer-right {
+        text-align: right;
+        position: inherit;
+        margin-top: 0;
+        font-size: 20px;
+        padding-left: 1.2em;
+        padding-right: 1.2em;
+        color: $gray-100;
+        font-weight: 400;
+    }
+
+    // When the screen is medium or smaller, make each footer chunk be 100% width 
+    // and centered; otherwise make them be 33% width and left/right/centerd
+    .nav-footer-left,
+    .nav-footer-right,
+    .nav-footer-center {
+        text-align: left;
+        width: 100%;
+        min-height: 2em;
+    }
+
+    @media (min-width: map-get($grid-breakpoints, md)) {
+        .nav-footer-left {
+            text-align: left;
+        }
+
+        .nav-footer-right {
+            text-align: right;
+        }
+
+        .nav-footer-left,
+        .nav-footer-right,
+        .nav-footer-center {
+            flex: 1 1 33%;
+        }
+    }
+}
+
+// Blog Categories
+
+// Blog categories
+#quarto-margin-sidebar {
+    .quarto-listing-category-title {
+        margin-left: 0.5em;
+    }
+    .quarto-listing-category {
+        font-family: $toc-font-family;
+        font-weight: 300;
+        font-size: 1em;
+        line-height: 1.1;
+        padding-left: 0.6rem;
+        margin-left: 0.5em;
+        border-left: 1px solid $gray-200;
+
+        .category {
+            padding-bottom: 0.5rem;
+        }
+
+        .active {
+            font-weight: 400;
+            color: $blue;
+        }
+
+        .quarto-category-count {
+            font-weight: 200;
+            font-size: 0.8em;
+            color: $gray-600;
+        }
+    }
+}
+
+// Blog
+.blog {
+    .blog-entry {
+        display: flex;
+        flex-direction: row;
+        font-family: $headings-font-family;
+        line-height: 1.3;
+        margin-bottom: 1.5em;
+        column-gap: 1em;
+
+        .body {
+            flex: 1 1 auto;
+        }
+
+        .metadata {
+            display: inline-flex;
+            //flex: 0 0 8%;
+        }
+
+        .thumbnail {
+            flex: 0 0 25%;
+
+            img {
+                width: 100%;
+                object-fit: scale-down;
+            }
+        }
+
+        .title {
+            font-size: 1.2em;
+            font-weight: 600;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: 1.3;
+            margin-bottom:16px;
+
+            a {
+                color: $body-color;
+            }
+        }
+
+        .description {
+            font-family: $font-family-sans-serif;
+            font-weight: 400;
+            font-size: 0.9em;
+            margin-bottom: 16px;
+        }
+
+        .continue-reading a {
+            color: $blue;
+            margin-top: 16px;
+        }
+
+        .continue-reading a:hover {
+            text-decoration: none;
+            border-bottom:1px dotted
+        }
+
+        .date {
+            font-weight: 400;
+            font-size: 0.9em;
+            margin-top: 0.3em;
+            text-align: left;
+        }
+
+        .post-categories {
+            display: flex;
+            flex-wrap: wrap;
+            row-gap: 0.4em;
+            column-gap: 0.4em;
+            margin: 0.5em 0;
+
+            .post-category {
+                color: $gray-700;
+                background-color: $gray-200;
+                text-transform: uppercase;
+                -webkit-border-radius: 6px;
+                -moz-border-radius: 6px;
+                border-radius: 6px;
+                font-size: .7em;
+                font-weight: 500;
+                padding: 3px 5px;
+                margin: .4em 0;
+                display: inline-block;
+                letter-spacing: .01em;
+                text-decoration:none;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+.blog-post {
+    .quarto-title .quarto-categories {
+        margin-top: 1.5em;
+        
+        .quarto-category {
+            background-color: #2A3947;
+            border-color: #2A3947;
+            color: $white;
+            font-size: 0.65em;
+            opacity: 1;
+            cursor: pointer;
+        }
+    }
+    
+    .quarto-title h1 {
+        font-size: 1.5em;
+        font-weight: $headings-font-weight;
+        font-style: normal;
+        margin-bottom: 16px;
+        color: $white;
+    }
+    
+    .quarto-title .description {
+        color: $white;
+        font-weight: 400;
+        font-size: 0.9em;
+    }
+
+    
+    
+}
+

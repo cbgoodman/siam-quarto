@@ -1,0 +1,12 @@
+{
+  "listingMap": {
+    "schedule/index.qmd": [
+      "presentations"
+    ],
+    "index.qmd": [
+      "posts",
+      "posts/*.qmd",
+      "posts/*/*.qmd"
+    ]
+  }
+}

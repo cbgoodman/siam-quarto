@@ -1,0 +1,6 @@
+---
+sidebar: false
+toc: false
+include-before-body: "html/mailing.html"
+---
+
