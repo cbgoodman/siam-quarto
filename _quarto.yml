@@ -10,7 +10,7 @@ project:
 
 website:
   title: "Section on Intergovernmental Administration and Management"
-  image: "siam-logo.jpg"
+  image: "files/siam-logo.jpg"
   favicon: "files/favicon.ico"
   page-navigation: true
   #google-analytics:
@@ -24,7 +24,7 @@ website:
     position: below-navbar
 
   navbar:
-    logo: "siam_logo.jpg"
+    logo: "files/siam_logo.jpg"
     logo-alt: "SIAM Logo"
     logo-href: "/index.qmd"
     title: false
