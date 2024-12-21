@@ -19,6 +19,12 @@ format:
   html: 
     fig-cap-location: margin
     hide-description: true
+    comments:
+      giscus: 
+        repo: cbgoodman/siam-quarto
+        category: Blog Comments
+    #    category-id: 
+        mapping: pathname
 
 # Default author
 author:

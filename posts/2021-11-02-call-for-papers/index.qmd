@@ -1,7 +1,7 @@
 ---
 title: "2022 Deil S. Wright Symposium: Call for Proposals"
 date: "2021-11-02"
-description: "TheSection on Intergovernmental Administration and Management invites scholars and practitioners to submit proposals for papers to be presented at the 8th annual Deil S. Wright Symposium. The symposium honors the career and contributions of Professor Deil S. Wright, who was a charter member of the Section and remained active until his passing in 2009. The Wright Symposium will be held at the national conference of the American Society for Public Administration in Jacksonville, FL.  The date is still being finalized, but it is typically the day before the conference begins.  The theme of the all-day 2022 Wright Symposium will be “Intergovernmental Issues of the Biden Presidency.”"
+description: "The Section on Intergovernmental Administration and Management invites scholars and practitioners to submit proposals for papers to be presented at the 8th annual Deil S. Wright Symposium. The symposium honors the career and contributions of Professor Deil S. Wright, who was a charter member of the Section and remained active until his passing in 2009. The Wright Symposium will be held at the national conference of the American Society for Public Administration in Jacksonville, FL.  The date is still being finalized, but it is typically the day before the conference begins.  The theme of the all-day 2022 Wright Symposium will be “Intergovernmental Issues of the Biden Presidency.”"
 categories:
     - call-for-papers
 ---
