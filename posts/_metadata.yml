@@ -25,7 +25,6 @@ format:
         category: Blog Comments
         category-id: DIC_kwDONgVcMc4ClaCf
         mapping: pathname
-        theme: noborder_light
 
 # Default author
 author:
